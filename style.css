@@ -1,0 +1,21 @@
+html, body {
+    min-height: 100%
+}
+
+body{
+    display: flex;;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+svg{
+    background-color: gainsboro;
+}
+
+
+#tooltip{
+    visibility: hidden;
+    width: auto;
+    height: auto;
+}
